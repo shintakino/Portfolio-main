@@ -3,6 +3,7 @@ import { Button } from './ui/button';
 
 //Components
 import Nav from './Nav';
+import MobileNav from './MobileNav';
 
 const Header = () => {
   return (
@@ -19,11 +20,13 @@ const Header = () => {
       <div className='hidden xl:flex items-center gap-8'>
         <Nav />
         <Link href='/contact'>
-          <Button className='hover:text-accent '>Hire me</Button>
+          <Button>Hire me</Button>
         </Link>
       </div>
       {/*Mobile nav */}
-      <div className="xl:hidden">mobile nav</div>
+      <div className="xl:hidden">
+        <MobileNav />
+      </div>
     </div>
   </header>
   )
