@@ -1,3 +1,4 @@
+"use client";
 import Photo from "@/components/Photo";
 import Social from "@/components/Social";
 import Stats from "@/components/Stats";
@@ -25,8 +26,10 @@ const Home = () => {
             <Button 
             variant="outline" 
             size="lg" 
-            className="uppercase flex items-center gap-2">
-              <span>Download CV</span>
+            className="uppercase flex items-center gap-2"
+            onClick={() => window.open('https://drive.google.com/uc?export=download&id=149zRGu9W8gurI20h5ajB2iYQ3BJdLsZX', '_blank')}
+            >
+              <span >Download CV</span>
               <FiDownload className="text-xl"/>
             </Button>
               <div className="mb-8 xl:mb-0">
