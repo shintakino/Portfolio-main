@@ -96,7 +96,7 @@ const education = {
       duration: '2014 - 2018',
     },
     {
-      institution: 'Notre Dame of Kidapawan College',
+      institution: 'Meocan Elementary School',
       degree: 'Elementary Diploma',
       duration: '2008 - 2014',
     },
@@ -253,7 +253,7 @@ const Resume = () => {
                     <div className="flex items-center gap-3">
                       {/*dot*/}
                       <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
-                      <p className="text-white/60">{item.institution}</p>
+                      <p className="text-white/60 lg:text-left">{item.institution}</p>
                     </div>
                   </li>
                 );
