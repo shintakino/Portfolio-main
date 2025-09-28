@@ -27,7 +27,7 @@ const Home = () => {
             variant="outline" 
             size="lg" 
             className="uppercase flex items-center gap-2"
-            onClick={() => window.open('https://drive.google.com/file/d/1D4eOL2bWdvcdrGuaTLqL8ctb81tOcETa/view?usp=sharing', '_blank')}
+            onClick={() => window.open('https://drive.google.com/file/d/1kAVRjVMHlQQ5JEN2dv-A_8sTJwTqYPWU/view?usp=sharing', '_blank')}
             >
               <span >Download CV</span>
               <FiDownload className="text-xl"/>
